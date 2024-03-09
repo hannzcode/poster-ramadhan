@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('src/background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.gambar1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.gambar2 {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.gambar3 {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.gambar4 {
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+}
+
+.gambar5 {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.gambar6 {
+  position: absolute;
+  width: 100%;
+  z-index: 6;
+}
+.gambar7 {
+  position: absolute;
+  width: 100%;
+  z-index: 7;
+  bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+  font-size: 15px;
+}
